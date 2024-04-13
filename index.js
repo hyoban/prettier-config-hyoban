@@ -54,9 +54,9 @@ module.exports = {
 			},
 		},
 		{
-			files: [".vscode/*.json", "tsconfig.json"],
+			files: ["*.json", "*.json5", "*.jsonc", ".eslintrc"],
 			options: {
-				parser: "jsonc",
+				trailingComma: "none",
 			},
 		},
 	],
