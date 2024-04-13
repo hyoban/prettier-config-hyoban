@@ -53,5 +53,11 @@ module.exports = {
 				requirePragma: true,
 			},
 		},
+		{
+			files: [".vscode/*.json", "tsconfig.json"],
+			options: {
+				parser: "jsonc",
+			},
+		},
 	],
 };
