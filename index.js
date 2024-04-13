@@ -46,6 +46,7 @@ module.exports = {
 	trailingComma: "all",
 	arrowParens: "always",
 	endOfLine: "lf",
+
 	overrides: [
 		{
 			files: GLOB_EXCLUDE,
