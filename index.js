@@ -35,18 +35,6 @@ const GLOB_EXCLUDE = [
 
 /** @type {import('prettier').Options} */
 module.exports = {
-	experimentalTernaries: true,
-	useTabs: true,
-	quoteProps: "consistent",
-
-	// Defaults
-	semi: true,
-	singleQuote: false,
-	jsxSingleQuote: false,
-	trailingComma: "all",
-	arrowParens: "always",
-	endOfLine: "lf",
-
 	overrides: [
 		{
 			files: GLOB_EXCLUDE,
