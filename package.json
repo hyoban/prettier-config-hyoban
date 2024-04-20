@@ -1,30 +1,30 @@
 {
-	"name": "prettier-config-hyoban",
-	"version": "2.0.0",
-	"packageManager": "pnpm@8.15.6",
-	"description": "Hyoban's Prettier config preset",
-	"author": {
-		"name": "hyoban",
-		"url": "https://github.com/hyoban"
-	},
-	"license": "MIT",
-	"homepage": "https://github.com/hyoban/prettier-config-hyoban#readme",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/hyoban/prettier-config-hyoban.git"
-	},
-	"bugs": "https://github.com/hyoban/prettier-config-hyoban/issues",
-	"keywords": [],
-	"sideEffects": false,
-	"files": [
-		"index.js"
-	],
-	"prettier": "./index.js",
-	"scripts": {
-		"lint": "prettier --list-different .",
-		"lint:fix": "prettier --list-different --write ."
-	},
-	"devDependencies": {
-		"prettier": "^3.2.5"
-	}
+  "name": "prettier-config-hyoban",
+  "version": "2.0.0",
+  "packageManager": "pnpm@8.15.6",
+  "description": "Hyoban's Prettier config preset",
+  "author": {
+    "name": "hyoban",
+    "url": "https://github.com/hyoban"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/hyoban/prettier-config-hyoban#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyoban/prettier-config-hyoban.git"
+  },
+  "bugs": "https://github.com/hyoban/prettier-config-hyoban/issues",
+  "keywords": [],
+  "sideEffects": false,
+  "files": [
+    "index.js"
+  ],
+  "prettier": "./index.js",
+  "scripts": {
+    "lint": "prettier --list-different .",
+    "lint:fix": "prettier --list-different --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
 }
