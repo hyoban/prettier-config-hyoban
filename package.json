@@ -1,6 +1,6 @@
 {
 	"name": "prettier-config-hyoban",
-	"version": "1.0.3",
+	"version": "2.0.0",
 	"packageManager": "pnpm@8.15.6",
 	"description": "Hyoban's Prettier config preset",
 	"author": {
