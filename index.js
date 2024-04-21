@@ -33,11 +33,17 @@ const GLOB_EXCLUDE = [
   "**/eslint-typegen.d.ts",
 ];
 
+const DEFAULT_GLOB_TS_SRC = ["**/*.cts", "**/*.mts", "**/*.ts", "**/*.tsx"];
+
+const DEFAULT_GLOB_JS_SRC = ["**/*.cjs", "**/*.mjs", "**/*.js", "**/*.jsx"];
+
+const DEFAULT_GLOB_SRC = [...DEFAULT_GLOB_TS_SRC, ...DEFAULT_GLOB_JS_SRC];
+
 /** @type {import('prettier').Options} */
 module.exports = {
   overrides: [
     {
-      files: GLOB_EXCLUDE,
+      files: [...GLOB_EXCLUDE, ...DEFAULT_GLOB_SRC],
       options: {
         requirePragma: true,
       },
